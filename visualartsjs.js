@@ -63,7 +63,7 @@ $(document).ready(function () {
     
         
     $("#cokebottle").mouseenter(function () {
-        $(".background-image").css("background-image", "url(images/CokeBottle/Cokebottle2.jpg)");
+        $(".background-image").css("background-image", "url(images/coke/cokebottle2.jpg)");
         $(".background-image").css("background-size", "cover");
     });
     $("#cokebottle").mouseleave(function () {
