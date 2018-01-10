@@ -63,7 +63,7 @@ $(document).ready(function () {
     
         
     $("#Cokebottle").mouseenter(function () {
-        $(".background-image").css("background-image", "url(images/Cokebottle/Cokebottle2.jpg)");
+        $(".background-image").css("background-image", "url(images/CokeBottle/CokeBottle2.JPG)");
         $(".background-image").css("background-size", "cover");
     });
     $("#Cokebottle").mouseleave(function () {
@@ -106,7 +106,7 @@ $(document).ready(function () {
     
         
     $("#Marinelife").mouseenter(function () {
-        $(".background-image").css("background-image", "url(images/Marinelife/marinelife2.jpg)");
+        $(".background-image").css("background-image", "url(images/MarineLife/marinelife2.jpg)");
         $(".background-image").css("background-size", "cover");
     });
     $("#Marinelife").mouseleave(function () {
@@ -115,7 +115,7 @@ $(document).ready(function () {
     
     
     $("#Individualsandcrowds").mouseenter(function () {
-        $(".background-image").css("background-image", "url(images/Individualsandcrowds/Individualsandcrowds.jpg)");
+        $(".background-image").css("background-image", "url(images/Individualsandcrowds/individualsandcrowds.jpg)");
         $(".background-image").css("background-size", "cover");
     });
     $("#Individualsandcrowds").mouseleave(function () {
