@@ -61,15 +61,15 @@ $(document).ready(function () {
         $(".background-image").css("background", "none");
     }); 
     
-        
+
     $("#cokebottle").mouseenter(function () {
         $(".background-image").css("background-image", "url(images/coke/cokebottle2.jpg)");
         $(".background-image").css("background-size", "cover");
     });
-    $("#cokebottle").mouseleave(function () {
+    $("#ThatIsSoLastSeason").mouseleave(function () {
         $(".background-image").css("background", "none");
     }); 
-
+    
             
     $("#Conflict").mouseenter(function () {
         $(".background-image").css("background-image", "url(images/Conflict/Conflict2.jpg)");
