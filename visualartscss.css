@@ -6,14 +6,17 @@
 
 html, body {
     height: 100%;
+    background-repeat: repeat;
 }
 
 .background-image {
     z-index: -1;
-    height: 150%;
-    background-repeat:no-repeat;
+    padding-bottom: 2.5em;
     background-position: center center;
-    background-size: cover
+    background-size: 20% 20%;
+
+    /*background-size: cover; */
+    background-repeat: repeat;
 }
 
 .Hidden {
@@ -82,6 +85,11 @@ a:before {
     padding: 0% 2%;
     margin-top: 30%;
     font-size: 2em;
+}
+
+.Series {
+    margin-top: -9%;
+    font-size: 0.8em;
 }
 
 .Date, .Medium {
