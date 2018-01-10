@@ -62,11 +62,11 @@ $(document).ready(function () {
     }); 
     
         
-    $("#Cokebottle").mouseenter(function () {
-        $(".background-image").css("background-image", "url(images/CokeBottle/CokeBottle2.JPG)");
+    $("#cokebottle").mouseenter(function () {
+        $(".background-image").css("background-image", "url(images/cokebottle/cokebottle2.jpg)");
         $(".background-image").css("background-size", "cover");
     });
-    $("#Cokebottle").mouseleave(function () {
+    $("#cokebottle").mouseleave(function () {
         $(".background-image").css("background", "none");
     }); 
 
