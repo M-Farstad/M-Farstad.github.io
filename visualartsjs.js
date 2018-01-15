@@ -7,7 +7,7 @@ $(document).ready(function () {
         $(".background-image").css("background-size", "cover");
         $(".background-image").css("background-repeat", "repeat");
     });
-    $("#SodaFountain").mouseleave(function () {
+    $("#waimeabay").mouseleave(function () {
         $(".background-image").css("background", "none");
     });
     
@@ -16,7 +16,7 @@ $(document).ready(function () {
         $(".background-image").css("background-size", "cover");
         $(".background-image").css("background-repeat", "repeat");
     });
-    $("#SodaFountain").mouseleave(function () {
+    $("#waimeabay").mouseleave(function () {
         $(".background-image").css("background", "none");
     });
     
