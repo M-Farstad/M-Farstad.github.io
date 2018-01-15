@@ -2,6 +2,26 @@
 /*global $, jQuery, alert*/
 $(document).ready(function () {
     "use strict";
+    $("#puumaelieli").mouseenter(function () {
+        $(".background-image").css("background-image", "url(images/puumaelieli/puumaelieli2.jpg)");
+        $(".background-image").css("background-size", "cover");
+        $(".background-image").css("background-repeat", "repeat");
+    });
+    $("#SodaFountain").mouseleave(function () {
+        $(".background-image").css("background", "none");
+    });
+    
+    $("#waimeabay").mouseenter(function () {
+        $(".background-image").css("background-image", "url(images/waimeabay/waimeabay2.jpg)");
+        $(".background-image").css("background-size", "cover");
+        $(".background-image").css("background-repeat", "repeat");
+    });
+    $("#SodaFountain").mouseleave(function () {
+        $(".background-image").css("background", "none");
+    });
+    
+    
+    
     $("#SodaFountain").mouseenter(function () {
         $(".background-image").css("background-image", "url(images/SodaFountain/SodaFountain2.jpg)");
         $(".background-image").css("background-size", "cover");
