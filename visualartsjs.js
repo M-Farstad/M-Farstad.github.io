@@ -7,7 +7,7 @@ $(document).ready(function () {
         $(".background-image").css("background-size", "cover");
         $(".background-image").css("background-repeat", "repeat");
     });
-    $("#waimeabay").mouseleave(function () {
+    $("#puumaelieli").mouseleave(function () {
         $(".background-image").css("background", "none");
     });
     
