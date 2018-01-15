@@ -12,7 +12,7 @@ $(document).ready(function () {
     });
     
     $("#waimeabay").mouseenter(function () {
-        $(".background-image").css("background-image", "url(images/waimeabay/waimeabay3.jpg)");
+        $(".background-image").css("background-image", "url(images/waimeabay/waimeabayhover.jpg)");
         $(".background-image").css("background-size", "cover");
         $(".background-image").css("background-repeat", "repeat");
     });
